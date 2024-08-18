@@ -18,7 +18,7 @@ namespace Tests
             pastebinPage.EnterCode("Hello from WebDriver");
             pastebinPage.SetExpiration("10 Minutes");
             pastebinPage.EnterName("helloweb");
-            pastebinPage.Submit();
+            pastebinPage.SubmitWithActions();
         }
     }
 }
